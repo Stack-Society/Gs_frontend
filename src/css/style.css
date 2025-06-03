@@ -1,0 +1,31 @@
+@import url('https://fonts.googleapis.com/css2?family=Krona+One&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Righteous&display=swap');
+
+.font-krona {
+  font-family: 'Krona One', sans-serif;
+}
+
+.font-righteous {
+  font-family: 'Righteous', sans-serif;
+}
+
+@keyframes fadeIn {
+  from { opacity: 0; transform: translateY(10px); }
+  to { opacity: 1; transform: translateY(0); }
+}
+.animate-fadeIn {
+  animation: fadeIn 1s ease-out forwards;
+}
+@keyframes slideInLeft {
+  from {
+    opacity: 0;
+    transform: translateX(-100px);
+  }
+  to {
+    opacity: 1;
+    transform: translateX(0);
+  }
+}
+.animate-slideInLeft {
+  animation: slideInLeft 0.8s ease-out forwards;
+}
