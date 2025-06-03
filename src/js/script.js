@@ -4,3 +4,4 @@ const menu = document.getElementById("menu")
 clicarMenu.addEventListener("click", () => {
     menu.classList.toggle('hidden')
 })
+
