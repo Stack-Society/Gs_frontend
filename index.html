@@ -32,11 +32,11 @@
                 <img src="./src/assets/logo.png" alt="Logo" class="w-[120px] h-auto hidden md:block">
                 <li
                     class="mt-4 self-start md:self-end relative after:content-[''] after:absolute after:left-0 after:bottom-0 after:h-[2px] after:w-0 after:bg-white after:transition-all after:duration-300 hover:after:w-full animate-fadeIn delay-300">
-                    <a href="">Benefícios</a>
+                    <a href="#video">Vídeo Pitch</a>
                 </li>
                 <li
                     class="mt-4 self-start md:self-end mr-10 relative after:content-[''] after:absolute after:left-0 after:bottom-0 after:h-[2px] after:w-0 after:bg-white after:transition-all after:duration-300 hover:after:w-full animate-fadeIn delay-400">
-                    <a href="">Contato</a>
+                    <a href="#contato">Contato</a>
                 </li>
             </ul>
         </nav>
@@ -116,7 +116,7 @@
 
         <section id="funcionalidades" class="mt-20 px-4 max-w-[720px] mx-auto">
             <div class="flex items-center justify-center p-8">
-                <h1 class="text-white font-krona text-[1.8rem] md:text-[2.8rem] self-center tracking-wide">Funcionalidades</h1>
+                <h1 class="text-white font-krona text-[1.8rem] md:text-[2.8rem]  tracking-wide">Funcionalidades</h1>
             </div>
 
             <div class="grid grid-rows-4 gap-8">
@@ -209,7 +209,84 @@
             </div>
         </section>
 
+        <section id="video" class="mt-20">
+            <div class="flex justify-center items-center">
+                <h1 class="text-white font-krona text-[1.8rem] md:text-[2.8rem]  tracking-wide  p-4  rounded-lg  ">Vídeo
+                    Pitch</h1>
+            </div>
+        </section>
+
+
+        <section id="contato" class="mt-20 px-4">
+            <div class="flex flex-col justify-center items-center text-center">
+                <h1 class="text-black font-righteous text-[1.8rem] md:text-[2.8rem] tracking-wide p-4">
+                    Fique por Dentro das Novidades!
+                </h1>
+                <h2 class="text-black font-righteous text-[1.2rem] md:text-[1.4rem] tracking-wide px-4 max-w-xl">
+                    Se inscreva agora e receba todas as atualizações
+                </h2>
+            </div>
+
+            <div class="flex justify-center items-center py-10">
+                <div
+                    class="bg-black p-8 w-full max-w-[700px] rounded-2xl shadow-[inset_0_0_6px_rgba(255,255,255,0.4)] border-[3px] border-black">
+
+                    <h3 class="text-[#EEFF00] font-krona text-center text-[1.6rem] mb-10">Insira seus dados</h3>
+
+                    <form action="submit">
+                        <div class="flex flex-col gap-6">
+                            <label class="text-[#EEFF00] font-krona text-[1.2rem]">
+                                Nome:
+                                <input type="text"
+                                    class="mt-2 w-full rounded-lg shadow-2xl font-krona text-[0.9rem] text-black p-3"
+                                    placeholder="Digite seu nome" />
+                            </label>
+
+                            <label class="text-[#EEFF00] font-krona text-[1.2rem]">
+                                E-mail:
+                                <input type="email"
+                                    class="mt-2 w-full rounded-lg shadow-2xl font-krona text-[0.9rem] text-black p-3"
+                                    placeholder="Digite seu email" />
+                            </label>
+
+                            <label class="text-[#EEFF00] font-krona text-[1.2rem]">
+                                Celular:
+                                <input type="tel"
+                                    class="mt-2 w-full rounded-lg shadow-2xl font-krona text-[0.9rem] text-black p-3"
+                                    placeholder="Digite seu celular" />
+                            </label>
+
+                            <div class="flex justify-center mt-8">
+                                <button
+                                    class="bg-[#EEFF00] text-black px-8 py-3 rounded-2xl font-krona text-[1.2rem] shadow-xl transition-all duration-300 hover:scale-105 hover:shadow-lg">
+                                    Se Inscrever
+                                </button>
+                            </div>
+                        </div>
+                    </form>
+
+                </div>
+            </div>
+        </section>
+
+
     </main>
+
+    <footer>
+        <div class="bg-black w-full p-8 flex justify-between items-center">
+            <div class="flex gap-4">
+                <img src="./src/assets/whatsapp.png" alt="Whatsapp" class="w-6 h-6 transition-all duration-300 hover:scale-105 hover:shadow-lg">
+                <img src="./src/assets/instagram.png" alt="Instagram" class="w-6 h-6 transition-all duration-300 hover:scale-105 hover:shadow-lg">
+                <img src="./src/assets/twitter.png" alt="Twitter" class="w-6 h-6 transition-all duration-300 hover:scale-105 hover:shadow-lg">
+            </div>
+
+            <div class="flex justify-center flex-1">
+                <h2 class="text-white text-[0.8rem] md:text-[1.1rem] text-center">Stack Society &copy; Todos os direitos reservados</h2>
+            </div>
+
+            <div class="w-[72px] md:flex hidden"></div> 
+        </div>
+    </footer>
     <script src="src/js/script.js"></script>
 </body>
 
